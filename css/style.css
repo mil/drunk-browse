@@ -1,0 +1,17 @@
+body {
+  cursor: pointer;
+}
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.active {
+  background: #5e72ff;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 4px #cfcfcf 3px #cfcfcf;
+  text-shadow: 2px #cfcfcf 2px #cfcfcf;
+  font-size: 1.3em;
+}
