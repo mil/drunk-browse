@@ -13,7 +13,7 @@ function load_css(url) {
   var stylesheet = document.createElement("link");
   stylesheet.setAttribute("rel", "stylesheet");
   stylesheet.setAttribute("type", "text/css");
-  stylesheet.setAttribute("href", "url");
+  stylesheet.setAttribute("href", url);
 }
 
 console.log("ran");
