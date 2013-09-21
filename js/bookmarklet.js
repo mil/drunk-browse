@@ -15,3 +15,5 @@ function load_css(url) {
   stylesheet.setAttribute("type", "text/css");
   stylesheet.setAttribute("href", "url");
 }
+
+console.log("ran");
